@@ -1,0 +1,8 @@
+#!/bin/bash -x
+read -p "Enter the number: " no
+harmonic=1;
+for (( i=2; i<=$no; no++ ))
+do
+	harmonic +=1.0 / i;
+	echo "harmonic"
+done
